@@ -1,0 +1,278 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+#c
+{
+    background-color: rgb(220,206,193);
+    width:100%;
+    height: 702px;
+
+}
+#d
+{
+    position: absolute;
+    left: 1058px;
+    top: 80px;
+    height:550px;
+    
+}
+#fu
+{
+    font-family: 'Bebas Neue', cursive;
+    top: 30%;
+    position: absolute;
+    font-size: 70px;
+    color:rgb(33,37,41);
+    
+}
+
+#main
+{
+    padding-left: 1100px;
+    background-color: rgb(220,206,193);
+ 
+}
+a
+{
+    color:rgb(33,37,41);
+    font-family: 'Bodoni Moda', serif;
+    padding: 12px;
+    font-size: 19px;
+    text-decoration: none;
+    background-color: rgb(220,206,193);
+    width: 25%;
+    
+}
+h1
+{
+    color:rgb(33,37,41);
+}
+h4{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color:rgb(33,37,41);
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    background-color: rgb(220,206,193);
+}
+
+#g
+{
+    background-color:skyblue;
+    width:90%;
+    height:600px;
+    margin-left:5%;
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-right:5%;
+}
+#h2
+{
+    padding-left: 850px;
+    padding-top: 50px;
+    width: 400px;
+    height: 0px;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    color: rgb(33,37,41);
+
+}
+#k
+{
+    padding-left: 850px;
+    padding-top: 70px;
+    width: 400px;
+    height: 0px;
+    font-family: 'Magra', sans-serif;
+
+    color: rgb(33,37,41);
+}
+#h
+{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+#i
+{
+    width: 300px;
+    height: 400px;
+    padding-top: 80px;
+}
+
+.card-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 80px;
+     }
+ 
+  .card-container .card {
+    margin: 10px;
+    background: #FFF;
+    transition: .15s all ease;
+    width: 350px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+   
+  }
+  .card-container .card:hover {
+    transform: scale(1.025);
+    transition: .35s all ease;
+  }
+  .card-container .card img {
+    width: 100%;
+  }
+
+ #cc{
+    display: flex;
+    width: 100%;
+  }
+
+  #h3
+{
+   padding-left: 700px;
+   font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    color: rgb(33,37,41);
+} 
+
+#l
+{
+    background-color: bisque		;
+    height: 700px;
+    
+}
+
+#ls
+{ font-family: 'Anton', sans-serif;
+    background-color:rgb(115, 147, 179);
+    margin-left: 52%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 500px;
+    width: 45%;
+   
+}
+
+#cc0{
+    padding-top: 20%;
+    padding-left: 30%;
+}
+h15{
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+}
+h16{
+   
+    font-size: 20px;
+    padding-top: 60%;
+    padding-left: 27%;
+}
+#cc2{
+    padding-left: 22%;
+}
+h17{
+    padding-left: 38%;
+}
+h18{
+    padding-left: 32%;
+}
+#cc5
+{
+    padding-left: 40%;
+}
+
+#pp
+{
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    left: 18%;
+    top: 2400px;
+}
+h21{
+    font-size: 50px;
+}
+
+
+
+#exampleFormControlInput1
+{
+    background-color: rgb(243, 237, 233);
+}
+#exampleFormControlTextarea1
+{
+    background-color: rgb(243, 237, 233);
+}
+#xyz{
+    background-color: rgb(133, 133, 133);
+    border-radius: 10px;
+    width: 70px;
+    border-style: none;
+    color: aliceblue;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+        /* body { background:rgb(30,30,40); } */
+        form { max-width:420px; margin:50px auto; }
+        
+        .feedback-input {
+          color:white;
+          font-family: Helvetica, Arial, sans-serif;
+          font-weight:500;
+          font-size: 18px;
+          border-radius: 5px;
+          line-height: 22px;
+          background-color: transparent;
+          border:2px solid bisque;
+          transition: all 0.3s;
+          padding: 13px;
+          margin-bottom: 15px;
+          width:100%;
+          box-sizing: border-box;
+          outline:0;
+        }
+        
+        .feedback-input:focus { border:2px solid bisque; }
+        
+        textarea {
+          height: 150px;
+          line-height: 150%;
+          resize:vertical;
+        }
+        
+        [type="submit"] {
+          font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+          width: 100%;
+          background:bisque;
+          border-radius:5px;
+          border:0;
+          cursor:pointer;
+          color:white;
+          font-size:24px;
+          padding-top:10px;
+          padding-bottom:10px;
+          transition: all 0.3s;
+          margin-top:-4px;
+          font-weight:700;
+        }
+        [type="submit"]:hover { background:bisque; }
+        #pq
+        {
+            position: absolute;
+            left: 180px;
+            width: 400px;
+            top:2430px;
+        }
+
+        
